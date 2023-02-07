@@ -6,11 +6,11 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 17:28:59 by mmazzocc          #+#    #+#             */
-/*   Updated: 2023/02/05 22:03:25 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/07 17:33:08 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../inc/push_swap.h"
 
 /* find_highest_index:
 *	Ritorna l'indice più grande nella stack-
@@ -88,14 +88,23 @@ int	main(int argc, char **argv)
 {
 	t_stack	*stack_a;
 	t_stack	*stack_b;
+	char	**tmp;
 	int		stack_size;
+	int		size;
 
+	size = 0;
+	tmp = NULL;
 	if (argc < 2)
 		return (0);
-	if (!input_check(argv))
-		exit_error(NULL, NULL);
+	else if (argc == 2)
+	{
+		stack_a = stack_check(argc, tmp, argv, 0);
+	}
+	else
+	{
+		stack_a = stack_check(argc, tmp, argv, 1);
+	}
 	stack_b = NULL;
-	stack_a = fill_stack_values(argc, argv);
 	stack_size = get_stack_size(stack_a);
 	assign_index(stack_a, stack_size + 1);
 	push_swap(&stack_a, &stack_b, stack_size);

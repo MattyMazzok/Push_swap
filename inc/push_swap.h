@@ -6,7 +6,7 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/25 13:47:42 by mcombeau          #+#    #+#             */
-/*   Updated: 2023/02/05 22:22:46 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/07 17:25:56 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,6 +83,8 @@ void		free_stack(t_stack **stack);
 long int	ft_atoi(const char *str);
 void		ft_putstr(char *str);
 int			nb_ass(int nb);
+size_t		ft_strlen(const char *s);
+char		**ft_split(const char *s, char c);
 
 /* Error */
 
@@ -93,5 +95,6 @@ void		exit_error(t_stack **stack_a, t_stack **stack_b);
 int			input_check(char **argv);
 int			is_digit(char c);
 int			segno(char c);
+t_stack		*stack_check(int size, char **tmp, char **argv, int check);
 
 #endif

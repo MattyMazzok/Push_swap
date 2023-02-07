@@ -6,11 +6,23 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 21:18:20 by mmazzocc          #+#    #+#             */
-/*   Updated: 2023/02/05 15:37:25 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/06 20:20:29 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../inc/push_swap.h"
+
+size_t	ft_strlen(const char *s)
+{
+	size_t	i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+}
 
 /* get_stack_before_bottom:
 *	Returna il penultimo elemento dela stack.

@@ -6,11 +6,11 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 21:05:29 by mmazzocc          #+#    #+#             */
-/*   Updated: 2023/02/04 21:13:33 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/06 19:53:45 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../inc/push_swap.h"
 
 /* get_stack_size:
 *	Ritorna il numero di elementi nella stack fornita.

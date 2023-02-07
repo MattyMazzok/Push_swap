@@ -6,7 +6,7 @@
 #    By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/05 21:55:42 by mmazzocc          #+#    #+#              #
-#    Updated: 2023/02/05 22:29:10 by mmazzocc         ###   ########.fr        #
+#    Updated: 2023/02/06 20:22:56 by mmazzocc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,8 @@ SRC		= main.c \
 		sort.c \
 		stack.c \
 		utils.c \
-		utils2.c
+		utils2.c \
+		utils3.c
 SRCS	= $(addprefix $(SRC_PATH), $(SRC))
 OBJ		= $(SRC:.c=.o)
 OBJS	= $(addprefix $(OBJ_PATH), $(OBJ))

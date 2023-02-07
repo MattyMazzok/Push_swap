@@ -6,11 +6,11 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 18:03:58 by mmazzocc          #+#    #+#             */
-/*   Updated: 2023/02/05 22:35:44 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/06 19:53:33 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../inc/push_swap.h"
 
 /* nb_str_cmp:
 *   Controlla se due stringhe di numeri siano uguali.
