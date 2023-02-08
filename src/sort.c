@@ -6,11 +6,11 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 21:20:25 by mmazzocc          #+#    #+#             */
-/*   Updated: 2023/02/05 22:11:54 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/07 23:12:01 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../inc/push_swap.h"
 
 /* shift_stack:
 *	Dopo che il grosso del sorting è stato completato ruota la stack in modo

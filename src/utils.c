@@ -6,11 +6,11 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 18:22:45 by mmazzocc          #+#    #+#             */
-/*   Updated: 2023/02/04 21:17:04 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/07 23:12:08 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../inc/push_swap.h"
 
 long int	ft_atoi(const char *str)
 {

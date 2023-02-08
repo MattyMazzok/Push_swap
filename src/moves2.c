@@ -6,11 +6,11 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/05 21:37:58 by mmazzocc          #+#    #+#             */
-/*   Updated: 2023/02/05 22:09:34 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/07 23:11:39 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../inc/push_swap.h"
 
 /* rotate:
 *	Il primo elemento di una stack viene spostato alla fine di essa.

@@ -6,11 +6,11 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/05 21:25:30 by mmazzocc          #+#    #+#             */
-/*   Updated: 2023/02/05 21:36:19 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/07 23:11:35 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../inc/push_swap.h"
 
 /* rev_rotate_both:
 *	Ruota entrambe le stack al contrario finchè una delle due è in posizione

@@ -6,7 +6,7 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 17:28:59 by mmazzocc          #+#    #+#             */
-/*   Updated: 2023/02/07 17:33:08 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/08 00:28:33 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,9 +90,7 @@ int	main(int argc, char **argv)
 	t_stack	*stack_b;
 	char	**tmp;
 	int		stack_size;
-	int		size;
 
-	size = 0;
 	tmp = NULL;
 	if (argc < 2)
 		return (0);

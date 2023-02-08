@@ -6,11 +6,11 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 21:28:40 by mmazzocc          #+#    #+#             */
-/*   Updated: 2023/02/05 22:10:56 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/07 23:11:57 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../inc/push_swap.h"
 
 /* get_position:
 *	Assegna ad ogni elemento della stack a una posizione dall'inizio alla

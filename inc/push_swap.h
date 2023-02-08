@@ -6,7 +6,7 @@
 /*   By: mmazzocc <mmazzocc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/25 13:47:42 by mcombeau          #+#    #+#             */
-/*   Updated: 2023/02/07 17:25:56 by mmazzocc         ###   ########.fr       */
+/*   Updated: 2023/02/08 00:49:05 by mmazzocc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,6 @@ typedef struct s_stack
 	int				cost_b;
 	struct s_stack	*next;
 }	t_stack;
-
-/* Initialization */
 
 t_stack		*fill_stack_values(int ac, char **av);
 void		assign_index(t_stack *stack_a, int ac);
@@ -69,6 +67,20 @@ void		rrr(t_stack **stack_a, t_stack **stack_b);
 void		rra(t_stack **stack_a);
 void		rrb(t_stack **stack_b);
 
+/* Operations Bonus*/
+
+void		pa_check(t_stack **stack_a, t_stack **stack_b);
+void		pb_check(t_stack **stack_a, t_stack **stack_b);
+void		sa_check(t_stack **stack_a);
+void		sb_check(t_stack **stack_b);
+void		ss_check(t_stack **stack_a, t_stack **stack_b);
+void		ra_check(t_stack **stack_a);
+void		rb_check(t_stack **stack_b);
+void		rr_check(t_stack **stack_a, t_stack **stack_b);
+void		rrr_check(t_stack **stack_a, t_stack **stack_b);
+void		rra_check(t_stack **stack_a);
+void		rrb_check(t_stack **stack_b);
+
 /* Stack Functions */
 
 t_stack		*get_stack_bottom(t_stack *stack);
@@ -85,6 +97,8 @@ void		ft_putstr(char *str);
 int			nb_ass(int nb);
 size_t		ft_strlen(const char *s);
 char		**ft_split(const char *s, char c);
+char		*ft_get_next_line(int fd);
+int			ft_strcmp(char *s1, char *s2);
 
 /* Error */
 
